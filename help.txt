@@ -1,12 +1,10 @@
 1.使用方法：
 执行命令：node index.js
 
-2.文件说明：
-index.js：定义路由（url）的映射关系；启动webserver。
-
-server.js:获取路由（url）；将response传给路由；并执行webserver的启动。
-
-router.js:对url（路由）执行其映射的方法。
+2.文件说明
+index.js：定义路由（url）的映射方法；启动webserver。
+server.js:定义webserr的启动方法；获取请求的路由（url）。
+router.js:执行路由对应的映射方法
 
 requestHandlers.js:路由映射方法的函数定义。
 
